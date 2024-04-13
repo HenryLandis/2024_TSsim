@@ -524,4 +524,4 @@ if __name__ == "__main__":
     print(mbtree)
 
     # save results to csv
-    sim.data.to_csv("~/phylo-timescale/sim.csv")
+    sim.data.to_csv("/home/henrylandis/2024_TSsim/output/sim.csv")

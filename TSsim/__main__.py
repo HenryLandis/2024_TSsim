@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
 """
-Command line interface for weekdayfinder.
+Command line interface for TSsim.
 """
 
 import argparse
-from phylotimescale import Simulator
+from TSsim import Simulator
 
 
 def parse_command_line():

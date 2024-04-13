@@ -118,7 +118,7 @@ if __name__ == "__main__":
 
     # Run this test with ctrl+shift+B in editor
 
-    from phylotimescale import Simulator
+    from TSsim import Simulator
 
     sptree = toytree.rtree.unittree(ntips=10, treeheight=1e6, seed=123)
     print(sptree)
@@ -162,4 +162,4 @@ if __name__ == "__main__":
     print(mbtree)
 
     # save results to csv
-    ana.data.to_csv("~/phylo-timescale/ana.csv")
+    ana.data.to_csv("/home/henrylandis/2024_TSsim/output/ana.csv")
